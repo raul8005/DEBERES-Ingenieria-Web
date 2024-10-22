@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Prototipo UTPL </title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/utpl.png" alt="UTPL" class="logo">
+            <!--<h1>UNIVERSIDAD TECNICA PARTICULAR DE LOJA </h1>-->
+        </div>
+        <div class="title">UNIVERSIDAD TECNICA PARTICULAR DE LOJA</div>
+        <div class="header-title">SISTEMA DE GESTION DE PLAN DOCENTE</div>
+    </header>
+
+    <!-- SECCION PARA INGRESAR -->
+    <main>
+        <section class="login-section">
+            <h3>Iniciar Sesión</h3>
+            <p>Use usuario y contraseña institucional</p>
+            <!-- Define formulario para la entrada del usuario 
+                # significa que no es redirigido -->
+            <form action="#">
+                <div>
+                    <label for="email">Usuario:</label>
+                    <input type="email" id="email" name="email" required placeholder="correo institucional">
+                </div>
+                <div>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="contraseña" id="password" name="password" required placeholder="**************">
+                </div>
+                <button type="submit">Ingresar</button>
+            </form>
+            <p id="decide-mas">UTPL decide ser más <strong>más</strong>!</p>
+        </section>
+    
+        <!-- SECCION PARA INGRESAR A LOS SERVICIOS -->
+        <section class="services-section">
+            <h3>Servicios UTPL</h3>
+            <!-- Crear una lista sin orden preestablecido-->
+            <ul>
+                <li><img src="img/atencioncliente.png" alt="Atencion al cliente" width="20%">Atencion al cliente</li>
+                <li><img src="img/utpl+.png" alt="UTPL+" width="20%">UTPL+</li>
+                <li><img src="img/correo.png" alt="Correo" width="20%">Correo</li>
+                <li><img src="img/directorio.png" alt="Directorio" width="20%">Directorio</li>
+            </ul>
+        </section>
+
+    <!-- SECCION PARA EL MANUAL DE USUARIO -->
+    <section class="manual-section">
+        <h3 id="MU">Manual de Usuario</h3>
+        
+        <ul>
+            <li>Manual para la elaboración del plan MODALIDAD PRESENCIAL</li>
+            <li>Manual para la elaboración del plan MODALIDAD A DISTANCIA</li>
+            <li>Manual por revisar</li>
+            <li>Manual equipo de calidad</li>
+            <li>Manual firma electrónica de documentos</li>
+            <li>Capacitación Jueves 26 de Septiembre 2024...</li>
+            <li>Soporte técnico - Sala Zoom...</li>
+            <li>Manual para ingreso de información inicial</li>
+        </ul>
+    </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Todos los derechos reservados. UTPL</p>
+        <p>Realizado por: Raul Medina</p>
+    </footer>
+
+    
+</body>
+</html>

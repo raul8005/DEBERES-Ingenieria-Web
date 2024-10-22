@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #0E426F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #0E426F;
+    color: white;
+    padding: 10px;
+    display: column;
+    justify-content: space-between;
+    line-height: 1;
+}
+/* Para ajustar el logo, alto y margen*/
+.logo{
+    height: 70px;
+    margin-right: 10px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*Para ver la vista de la pantalla como va a estar distribuida*/
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.login-section, .services-section, .manual-section{
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/* ESTILO PARA EL INGRESO*/
+.login-section{
+    width: 30%;
+    text-align: center;
+}
+.login-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-section input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-section button{
+    padding: 10px 20px;
+    background-color: #0E426F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-section label{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#decide-mas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.services-section, .manual-section{
+    width: 25%;
+}
+.services-section ul, .manual-section ul {
+    list-style: none;
+    padding: 0;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/* ESTILO PARA LOS SERVICIOS UTPL*/
+
+.services-section{
+    width: 30%;
+    text-align: center;
+}
+.services-section li{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.services-section img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ESTILO PARA EL MANUAL DE USUARIO*/
+#MU {
+    text-align: center;
+}
+.manual-section ul{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 7px 0;
+    line-height: 1.6;
+}
